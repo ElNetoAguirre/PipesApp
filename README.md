@@ -1,27 +1,42 @@
-# PipesApp
+<p align="center">
+  <a href="https://www.angular.io/" target="blank"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="200" alt="Angular Logo"/></a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+# Pipes App
 
-## Development server
+Aplicación creada utilizando PrimeNG, la cual sirve para explicar el funcionamiento de los pipes in cluidos en Angular (al menos los que estan en la sección Common).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Los pipes son aplicados de diferentes maneras, ya sean fechas, números, cambiar a diferentes idiomas, pipes poco comunes, entre otros.
 
-## Code scaffolding
+Así mismo se mezclan funcionalidades de modulos, PrimeNG y PrimeFlex.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Algunos conceptos utilizados para la generación de ésta App, son:
 
-## Build
+1. Todos los Pipes de Angular a la fecha.
+    - Uppercase.
+    - Lowercase.
+    - TitleCase.
+    - Date.
+    - Decimal.
+    - Currency.
+    - Percent.
+    - i18nSelect.
+    - i18Plural.
+    - KeyValue.
+    - Json.
+    - Async.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. PrimeNG.
 
-## Running unit tests
+3. Módulo especializado para módulos de PrimeNG.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. Pipes Personalizados.
+    - Pipes personalizados.
+    - Argumentos hacia los Pipes.
+    - SorTable manual y usando PrimeNG.
 
-## Running end-to-end tests
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) versión 16.1.1.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Servidor de Desarrollo
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ejecuta `ng serve` para generar un servidor de desarrollo. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
